@@ -11,3 +11,11 @@ get '/rps/:player_1/:player_2' do
   # binding.pry
   erb(:result)
 end
+
+get '/' do
+  erb(:home)
+end
+
+get '/rules' do
+  erb(:rules)
+end
